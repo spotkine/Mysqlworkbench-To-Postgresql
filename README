@@ -1,0 +1,7 @@
+Here is a little script to parse a MysqlWorbench schema and generate a postgresql tables creation script
+
+Requirements: PHP5.2+ because of the use of ZipArchive extension.
+
+To use, simply do:  php mwbtopg.php YourSchemaFile.mwb > YourPgTables.sql
+
+That's it
