@@ -1,4 +1,5 @@
-Here is a little script to parse a MysqlWorbench schema and generate a postgresql tables creation script
+Here is a script to parse a Mysql Worbench diagram and generate a postgresql tables creation script.
+The postgresql generation part is delivered as an adapter, so it's easy to write other output dialects generators.
 
 Requirements: PHP5.2+ because of the use of ZipArchive extension.
 
